@@ -5,8 +5,9 @@ int main(){
     char c;
     cin >> c;
     int n= (int)c;
+    bool x=caratteri(n);
 
-    if (caratteri(n)==1){
+    if (x==1){
         if ((65 <= n)&&(n <= 90)){
             n=n+32;
             cout << (char)n << endl;
