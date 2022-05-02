@@ -1,1 +1,1 @@
-bool caratteri(char);
+bool caratteri(int);
